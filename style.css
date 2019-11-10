@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html {
+    background: #11a7f7;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: whitesmoke;
+}
+
+body {
+    font-size: 2rem;
+    min-height: 100vh;
+}
+
+.cloq {
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+    border: 20px solid whitesmoke;
+    margin: 50px auto;
+    padding: 2rem;
+    box-shadow: 0 0 0 4px rgba(0,0,0,0.1);
+}
+
+.cloq-face {
+    position: relative;
+    transform: translateY(-3px);
+    width: 100%;
+    height: 100%;
+}
+
+/* hand styling */
+.hand {
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+
+.hr-hand {
+    width:25%;
+    transform: translateX(100%) rotate(90deg) !important;
+    height:9px;
+    background: black;
+}
+.sec-hand {
+    width:50%;
+    transform: rotate(90deg);
+    height: 4px;
+    background: red;
+
+}
+.min-hand {
+    width: 50%;
+    transform: rotate(90deg);
+    height:7px;
+    background: black;
+}
